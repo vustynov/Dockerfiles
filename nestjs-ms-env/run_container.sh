@@ -5,7 +5,7 @@
 
 
 CONTAINER_IMAGE=nestjs-ms-env:1.0.0
-LOCAL_WORKSPACE_PATH=/home/ustas/work/MyProjects/OpenCV/TestProject
+LOCAL_WORKSPACE_PATH=/home/ustas/work/MyProjects/NodeJS/TestProject
 CNT_WORKSPACE_PATH=/root
 
 docker run -it --rm \
