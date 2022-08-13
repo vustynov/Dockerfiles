@@ -5,5 +5,5 @@ RUN apt-get update
 RUN apt-get install -y apt-utils
 RUN apt-get install -y tzdata
 RUN dpkg-reconfigure --frontend noninteractive tzdata
-RUN apt-get install -y libopencv-dev g++ vim
+RUN apt-get install -y libopencv-dev g++ vim socat
 
